@@ -10,3 +10,8 @@ The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detectio
 ## YOLOv3's architecture
 
 ![Imgur](https://github.com/sthanhng/yoloface/blob/master/assets/yolo-architecture.png)
+
+## OpenCV Deep Neural Networks (dnn module)
+
+OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks such as TensorFlow, Torch, Darknet and Caffe.
+
