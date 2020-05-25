@@ -14,4 +14,28 @@ The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detectio
 ## OpenCV Deep Neural Networks (dnn module)
 
 OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks such as TensorFlow, Torch, Darknet and Caffe.
+## Usage
 
+* Clone this repository
+```bash
+$ git clone https://github.com/sthanhng/yoloface
+```
+* Run the following command:
+
+>**video input**
+```bash
+$ python yoloface.py --video samples/subway.mp4 --output-dir outputs/
+```
+
+>**webcam**
+```bash
+$ python yoloface.py --src 1 --output-dir outputs/
+```
+
+## Sample outputs
+
+![Imgur](assets/outside_000001_yoloface.jpg)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
